@@ -12,7 +12,7 @@ describe('List', function () {
   })
 
   describe('List construction', function () {
-    it('should have at least 1 article', function (done) {
+    it.skip('should have at least 1 article', function (done) {
       nightmare
         .goto(base)
         .wait('.list')
@@ -29,7 +29,7 @@ describe('List', function () {
   })
 
   describe('List item construction', function () {
-    it('should have title & date', function (done) {
+    it.skip('should have title & date', function (done) {
       nightmare
         .goto(base)
         .wait('.list')
@@ -56,7 +56,7 @@ describe('List', function () {
   })
 
   describe('List item navigation', function () {
-    it('should goto post page', function (done) {
+    it.skip('should goto post page', function (done) {
       nightmare
         .goto(base)
         .wait('.list')
