@@ -8,8 +8,6 @@
 
 ✏️ A blog based on GitHub Pages built with Vue.js 2 + webpack 3.
 
-一个依赖 GitHub Pages，无需本地生成的静态博客，使用了 Vue.js 2 组件开发，webpack 3 打包。
-
 ![Post Screenshots](https://cloud.githubusercontent.com/assets/5064777/19349059/a815395c-9183-11e6-97c3-56514acf0f1d.png)
 
 ## Features
@@ -22,7 +20,7 @@
 
 ## Demo
 
-http://ukn.me
+http://weh.li
 
 ## Develop
 
@@ -37,12 +35,8 @@ npm run dev
 npm test
 ```
 
-## Vue 1.x version
-
-For the Vue 1.x version, please see the [vue-1 branch](https://github.com/viko16/vue-ghpages-blog/tree/vue-1). 
-
 ## About My Workflow
-- All the posts are stored in [viko16/writings](https://github.com/viko16/writings), while [`src/config.js`](src/config.js) points it.
+- All the posts are stored in [weh/vue-blog-posts](https://github.com/weh/vue-blog-posts), while [`src/config.js`](src/config.js) points it.
 - When I push the code to `develop` branch, [TravisCI](.travis.yml) will deploy `gh-pages` automatically.
 
 ## License
