@@ -94,7 +94,7 @@ describe('Layout', function () {
         .end()
         .then(({ target, href }) => {
           expect(target).to.equal('_blank')
-          expect(href).to.equal('https://github.com/viko16/vue-ghpages-blog')
+          expect(href).to.equal('https://github.com/weh/vue-ghpages-blog')
           done()
         })
         .catch(done)

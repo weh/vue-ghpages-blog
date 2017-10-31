@@ -19,8 +19,8 @@ describe('Custom filter', function () {
       expect(f).to.be.a('function')
     })
 
-    it('should format the date in chinese', function () {
-      expect(getRenderedText(Date.now())).to.equal('刚刚')
+    it('should format the date in english', function () {
+      expect(getRenderedText(Date.now())).to.equal('just now')
     })
 
     it('should get empty string when passed bad args', function () {
